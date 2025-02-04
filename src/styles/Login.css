@@ -1,0 +1,109 @@
+/* Global styles */
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login container */
+.login-container {
+    width: 350px;
+    padding: 30px;
+    border: 2px solid #006400;
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+/* Heading */
+h1 {
+    color: #800000;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Labels */
+label {
+    display: block;
+    color: #006400;
+    margin-bottom: 8px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #006400;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+    border-color: #800000;
+    box-shadow: 0px 0px 8px rgba(128, 0, 0, 0.2);
+    outline: none;
+}
+
+/* Login button */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #660000;
+    transform: translateY(-2px);
+}
+
+/* Links */
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    color: #006400;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #800000;
+    text-decoration: underline;
+}
