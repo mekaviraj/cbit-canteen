@@ -1,0 +1,67 @@
+/* Category Page Container */
+.category-page {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+  }
+  
+  .category-page h1 {
+    color: #800000;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  /* Category Grid Layout */
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  /* Individual Category Box */
+  .category-box {
+    background-color: white;
+    border: 2px solid #006400;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .category-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Category Image */
+  .category-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Category Name */
+  .category-name {
+    color: #006400;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Arrow Icon */
+  .arrow-icon {
+    font-size: 24px;
+    color: #800000;
+    transition: transform 0.3s ease;
+  }
+  
+  .category-box:hover .arrow-icon {
+    transform: translateX(5px);
+  }
